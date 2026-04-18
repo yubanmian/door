@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-immersive-bg: #05070A;
+  --color-immersive-door: #FF69B4;
+  --color-immersive-door-shadow: #D61A7C;
+  --color-immersive-gold: #FFD700;
+  --color-immersive-indigo: #1a1c2c;
+  
+  --font-serif: "Georgia", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-immersive-bg text-white overflow-hidden;
+  }
+}
+
+@keyframes loading-bar {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-loading-bar {
+  animation: loading-bar 2s linear infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}
