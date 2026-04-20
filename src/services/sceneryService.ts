@@ -6,7 +6,7 @@ const SCENES: Omit<Scenery, 'quote'>[] = [
     id: 'fuji',
     name: '富士山',
     country: '日本',
-    imageUrl: 'https://images.unsplash.com/photo-1570698473651-b2de99bae12f?q=80&w=1920&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?q=80&w=1920&auto=format&fit=crop',
     lat: 35.3606,
     lng: 138.7274
   },
@@ -14,7 +14,7 @@ const SCENES: Omit<Scenery, 'quote'>[] = [
     id: 'eiffel',
     name: '埃菲尔铁塔',
     country: '法国',
-    imageUrl: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=1920&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1920&auto=format&fit=crop',
     lat: 48.8584,
     lng: 2.2945
   },
@@ -22,7 +22,7 @@ const SCENES: Omit<Scenery, 'quote'>[] = [
     id: 'uyuni',
     name: '乌尤尼盐沼',
     country: '玻利维亚',
-    imageUrl: 'https://images.unsplash.com/photo-1544376798-89aa6b82c6cd?q=80&w=1920&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1518176258769-f227c798150e?q=80&w=1920&auto=format&fit=crop',
     lat: -20.1338,
     lng: -67.4891
   },
@@ -38,7 +38,7 @@ const SCENES: Omit<Scenery, 'quote'>[] = [
     id: 'machu',
     name: '马丘比丘',
     country: '秘鲁',
-    imageUrl: 'https://images.unsplash.com/photo-1587590227184-06da0ba36894?q=80&w=1920&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?q=80&w=1920&auto=format&fit=crop',
     lat: -13.1631,
     lng: -72.545
   },
@@ -54,7 +54,7 @@ const SCENES: Omit<Scenery, 'quote'>[] = [
     id: 'pyramid',
     name: '吉萨大金字塔',
     country: '埃及',
-    imageUrl: 'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=1920&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1539650116574-8efeb43e2750?q=80&w=1920&auto=format&fit=crop',
     lat: 29.9792,
     lng: 31.1342
   },
